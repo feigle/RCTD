@@ -1,0 +1,30 @@
+//
+//  RCTD-PrefixHeader.pch
+//  RCTDManager
+//
+//  Created by matt on 2018/5/21.
+//  Copyright © 2018年 GDRCTD. All rights reserved.
+//
+
+#ifndef RCTD_PrefixHeader_pch
+#define RCTD_PrefixHeader_pch
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+/** header定义：宏、颜色、字号、枚举、block、内联函数 */
+#import "DDCommonHeader.h"
+/** 全局配置 */
+#import "DDGlobalConfigClassHeader.h"
+/** 接口地址 */
+#import "DDRequestGlobleUrlHeader.h"
+/** 第三方库 */
+#import "DDThirdLibraryHeader.h"
+/** 公用的一些类库 */
+#import "DDGeneralCommonHeader.h"
+/** 关于一些布局 */
+#import "DDScreenFitterHeaderHeader.h"
+/** 当前用户数据单例 */
+#import "DDCurrentUserDataModel.h"
+
+#endif /* RCTD_PrefixHeader_pch */
